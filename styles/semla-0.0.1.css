@@ -1,0 +1,290 @@
+/*
+
+  www.snabbsemla.se
+
+  Copyright (c) 2014 markus.eliasson@gmail.com - All rights reserved.
+ */
+
+/*
+ Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+ Code licensed under the BSD License:
+ http://developer.yahoo.com/yui/license.html
+ version: 2.8.2r1
+*/
+
+
+
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
+
+
+/** Base styles **************************************************************/
+
+html {
+    background-color: #fff;
+}
+
+body {
+    color: #797d80;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+h1 {
+    font-size: 90px;
+    padding: 20px 0px;
+    line-height: 40px;
+    font-family: 'Glass Antiqua', cursive;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 10px 0px;
+    line-height: 20px;
+}
+
+h3 {
+    font-size: 14px;
+    padding: 4px 0px;
+    line-height: 14px;
+}
+
+h4 {
+    font-size: 12px;
+    padding: 5px 0px;
+    line-height: 12px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a,
+a:focus,
+a:active {
+    color: #FF99B2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #999;
+}
+
+article {
+    padding: 80px 0px;
+}
+
+article header {
+    text-align: center;
+}
+
+article header h1,
+article header h2 {
+    padding: 0px;
+}
+
+article section.main {
+    padding: 20px 0px;
+    border: none;
+}
+
+
+/** States *******************************************************************/
+
+.is-clear {
+    clear: both;
+}
+
+
+/** Wrappers and containers **************************************************/
+
+.main-wrapper {
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+
+/** Header *******************************************************************/
+
+header.main {
+    margin: 0px;
+    background-color: #FF99B2;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+header.main .icon {
+    font-size: 32px;
+}
+
+#logo {
+    float: left;
+    padding: 10px 0px;
+}
+
+header.main a,
+header.main a:focus,
+header.main a:active,
+header.main a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+header.main nav {
+    float: right;
+    margin: 0px;
+    margin-right: 20px;
+    padding: 10px 0px;
+    
+}
+
+header.main nav ul {
+    list-style: none;
+}
+
+header.main nav li {
+    float: left;
+    margin-left: 16px;
+    margin-right: 0px;
+}
+
+header.main nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header.main nav li a:hover {
+    color: #fff;
+}
+
+header.main li {
+    list-style: none;
+    margin: 0px;
+}
+
+
+/** Footer *******************************************************************/
+
+footer.main {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 12px;
+    padding: 40px 0px;
+}
+
+footer.main .icon {
+    font-size: 16px;
+    margin: 0px 6px;
+}
+
+footer.main a,
+footer.main a:focus,
+footer.main a:active {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+footer.main a:hover {
+    text-decoration: none;
+}
+
+
+/* Sections ******************************************************************/
+
+section.main {
+    padding: 40px 0px;
+    color: #505354;
+}
+
+section.main h2 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+section.main h3 {
+    font-size: 28px;
+    line-height: 28px;
+}
+
+section.main .main-wrapper {
+    margin: 0px auto;
+    max-width: 768px;
+    padding: 0px 20px;
+}
+
+section.main section {
+    margin: 20px 0px;
+}
+
+section.main .number {
+    float: left;
+    margin: 40px 40px;
+    font-size: 128px;
+    line-height: 140px;
+    color: #FF99B2;;
+}
+
+section.main .steps {
+    float: left;
+    max-width: 600px;
+}
+
+section.main .ad {
+    text-align: center;
+}
+
+/** Section colors ***********************************************************/
+
+section.headline {
+    text-align: center;
+    background-color: #FF99B2;
+    color: #fff;
+    padding: 140px 0px;
+}
+
+section.headline a,
+section.headline a:focus,
+section.headline a:active,
+section.headline a:hover {
+    font-weight: 100;
+}
+
+section.one h2,
+section.two h2,
+section.three h2,
+section.four h2,
+section.five h1 {
+    color: #FF99B2;
+}
+
+section.five h1 {
+    text-align: center;
+}
+
+span.keyword {
+    font-style: oblique;
+}
+
+
+/** Box **********************************************************************/
+section.main div.box {
+    padding: 10px;
+    max-width: 236px;
+    min-width: 236px;
+    width: 236px;
+    min-height: 200px;
+    text-align: center;
+    float: left;
+}
